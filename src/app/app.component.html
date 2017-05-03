@@ -1,0 +1,16 @@
+<h1>
+  {{title}}
+</h1>
+<a href=""></a>
+<a href="c1">child1</a>
+<a href="c2">child2</a>
+<a href="c3">child3</a>
+
+<router-outlet></router-outlet>
+
+
+<hr />
+
+<app-child1 (onVoted)="onVoted($event)"></app-child1>
+<!--<app-child2></app-child2>-->
+<!--<app-child3></app-child3>-->
